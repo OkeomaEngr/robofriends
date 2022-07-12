@@ -1,12 +1,13 @@
 import React from "react";
 
-const Card = () => {
+const Card = ({name , id ,email , username}) => { // needs parameters within the brackets
     return(
-        <div>
-            <img alt='robots' src=''/>
+        <div className="bg-light-green dib br3 pa3 ma2 grow shadow-5"> 
+            <img alt='robots' src={`https://robohash.org/${id}?200x200`}/>
             <div>
-                <h2>Billy Joe</h2>
-                <p>billyjoe@gmail.com</p>
+                <h2>{name}</h2>
+                <p>username: {username}</p>
+                <p>email : {email}</p>
             </div>
         </div>
     )
