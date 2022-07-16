@@ -24,7 +24,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './containers/App';
 // import Card from './Card'; no longer being used here
 // import CardList from './CardList'; // no longer being used here
 import reportWebVitals from './reportWebVitals';

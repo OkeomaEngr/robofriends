@@ -1,7 +1,8 @@
 import React from 'react';
-import CardList from './CardList';
-import { robots } from './robots';
-import SearchBox from './SearchBox';
+import CardList from '../components/CardList';
+import { robots } from '../components/robots';
+import SearchBox from '../components/SearchBox';
+import './App.css';
 
 //STATE : view react file 
 //Note that our app componenet has two states 
